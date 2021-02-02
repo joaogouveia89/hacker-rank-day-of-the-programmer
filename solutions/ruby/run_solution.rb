@@ -18,9 +18,9 @@ year60 = data[0].to_i
 
 # problem application
 start = Time.now
-response00 = day_of_the_programmer year00
-response01 = day_of_the_programmer year01
-response60 = day_of_the_programmer year60
+response00 = DayOfTheProgrammer.run year00
+response01 = DayOfTheProgrammer.run year01
+response60 = DayOfTheProgrammer.run year60
 finish = Time.now
 
 puts("solved all the test cases in " + (1000 * (finish - start)).round(2).to_s + "ms")
