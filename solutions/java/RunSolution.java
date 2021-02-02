@@ -31,6 +31,7 @@ public class RunSolution{
 
 		// problem application
 
+		String xuxu = DayOfTheProgrammer.run(2000);
 		String response00 = DayOfTheProgrammer.run(year00);
 		String response01 = DayOfTheProgrammer.run(year01);
 		String response60 = DayOfTheProgrammer.run(year60);
